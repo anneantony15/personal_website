@@ -3,103 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ann Maria Antony</title>
+    <title>Personal Website</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1006/1006771.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        
+        body {
+            background-color: #121212; 
+            font-family: Arial, sans-serif;
+            color: #fff; 
+        }
+        .navbar {
+            background-color: #212529; 
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important; 
+        }
+        .navbar-toggler-icon {
+            background-color: #fff; 
+        }
+        .jumbotron {
+            background-color: #212529; 
+            color: #fff;
+        }
+        .jumbotron img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .card {
+            background-color: #343a40; 
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.03); 
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <a class="navbar-brand text-white" href="#">Ann Maria Antony</a>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Ann Maria Antony</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Home</a>
+                <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Services</a>
+                <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
-<section class="p-4">
+<section class="jumbotron text-center">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="https://media.licdn.com/dms/image/D5603AQGMb4ufKDqbVA/profile-displayphoto-shrink_400_400/0/1680935543090?e=1700092800&v=beta&t=2hUKwdwONQ52hJzFBCegElTRWBSfjTZ-n24_wM9mX5A" class="rounded-circle">
-            </div>
-            <div class="col-md-6">
-                <h4>
-                    3rd year CSE Student at TKM College of Engineering, Kollam
-                    <br>Interests: UI/UX Design, Frontend Web Development, App Development
-                </h4>
-            </div>
-        </div>
+        <img src="https://media.licdn.com/dms/image/D5603AQGMb4ufKDqbVA/profile-displayphoto-shrink_400_400/0/1680935543090?e=1700092800&v=beta&t=2hUKwdwONQ52hJzFBCegElTRWBSfjTZ-n24_wM9mX5A" alt="Profile Image" class="rounded-circle">
+        <h1 class="display-4">Ann Maria Antony</h1>
+        <p class="lead">3rd year CSE Student at TKM College of Engineering, Kollam</p>
+        <p>Interests: UI/UX Design, Frontend Web Development, App Development</p>
     </div>
 </section>
-<section class="bg-light p-6">
-    <div class="container">
-        <h1 class="text-center">Services</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card text-center p-3" style="width: 18rem;">
-                    <i class="fa-solid fa-pen-ruler display-1 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">UI/UX Design</h5>
-                        <p class="card-text">User Interface (UI) Design
-                            <br>User Experience (UX) Design
-                            <br>Wireframing and Prototyping
-                            <br>Adobe Photoshop (Intermediate)
-                            <br>Figma (Intermediate)
-                            <br>Interaction Design
-                        </p>
-                    </div>
+<section class="container my-5">
+    <h2 class="text-center">Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <i class="fa-solid fa-pen-ruler display-1 text-info"></i>
+                <div class="card-body">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text">User Interface (UI) Design
+                        <br>User Experience (UX) Design
+                        <br>Wireframing and Prototyping
+                        <br>Adobe Photoshop (Intermediate)
+                        <br>Figma (Intermediate)
+                        <br>Interaction Design
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center p-3" style="width: 18rem;">
-                    <i class="fa-solid fa-code display-1 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Web Designing</h5>
-                        <p class="card-text">Web Design Principles
-                            <br>HTML/CSS (Intermediate)
-                            <br>JavaScript (Basic)
-                            <br>Adobe Photoshop (Intermediate)
-                            <br>Usability Testing
-                        </p>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <i class="fa-solid fa-code display-1 text-info"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Web Designing</h5>
+                    <p class="card-text">Web Design Principles
+                        <br>HTML/CSS (Intermediate)
+                        <br>JavaScript (Basic)
+                        <br>Adobe Photoshop (Intermediate)
+                        <br>Usability Testing
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center p-3" style="width: 18rem;">
-                    <i class="fas fa-mobile-alt display-1 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">App Development</h5>
-                        <p class="card-text">Mobile App Development
-                            <br>Android and iOS
-                            <br>UI/UX for Mobile Apps
-                            <br>React Native (Intermediate)
-                            <br>Flutter (Basic)
-                        </p>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <i class="fas fa-mobile-alt display-1 text-info"></i>
+                <div class="card-body">
+                    <h5 class="card-title">App Development</h5>
+                    <p class="card-text">Mobile App Development
+                        <br>Android and iOS
+                        <br>UI/UX for Mobile Apps
+                        <br>React Native (Intermediate)
+                        <br>Flutter (Basic)
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- ... Remaining HTML code ... -->
-
+<section class="container my-5">
+    <h2 class="text-center">Contact</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card p-3">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMobile">Mobile</label>
+                            <input type="tel" class="form-control" id="inputMobile" placeholder="Mobile">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card p-3">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Type your message here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <script src="https://kit.fontawesome.com/8c49d99d46.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-
 
